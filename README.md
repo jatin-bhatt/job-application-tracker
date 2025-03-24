@@ -34,7 +34,7 @@ This application is built with the idea of Clean Architecture using mediator pat
 ### Backend Setup
 
 1. Navigate to the `JobApplicationTracker` directory:
-    cd JobApplicationTracker
+    `cd JobApplicationTracker`
 2. DB Migrations
     It is using SQlite and database file is created JobApplicationTracker.db. 
     For refreshing migration, remove database file "JobApplicationTracker.db", then Open Package Manager Console and select default project as Infrastructure. Run 1) "Remove-Migration" 2) "Add-Migration InitialCreate" 3) Update-Database 
@@ -49,12 +49,12 @@ Swagger URL - http://localhost:53320/index.html
 ### Frontend Setup
 
 1. Navigate to the `JobApplicationTracker.UI` directory:
-    cd JobApplicationTracker.UI
+    `cd JobApplicationTracker.UI`
 2. Install dependencies:
-    npm install
+    `npm install`
 3. Run the React app:
-    npm run build
-    npm run dev
+    `npm run build`
+    `npm run dev`
 
 The React app should now be running on http://localhost:5173
 
