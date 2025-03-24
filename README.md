@@ -2,6 +2,9 @@
 
 # React UI and .NET Web API Backend Project
 
+Objective: Build a simple job application tracker with ASP.NET Core Web API
+and a React or Angular frontend.
+
 This project consists of two main components:
 1. **JobApplicationTracker.UI**: A React application that interacts with the backend API.
 2. **JobApplicationTracker**: A .NET Web API serving as the backend for the React application.
